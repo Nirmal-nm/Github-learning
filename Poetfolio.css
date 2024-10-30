@@ -1,0 +1,114 @@
+/* Reset */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+/* Body */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    color: #333;
+    padding: 0 10%;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #4CAF50;
+    color: white;
+}
+header h1 {
+    font-size: 2.5rem;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+nav .nav-links {
+    display: flex;
+    gap: 20px;
+}
+nav .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+/* Sections */
+.section {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* About Section */
+.about img {
+    display: block;
+    margin: 20px auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Skills and Projects */
+.skills-container, .projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+.skill-box, .project-box {
+    flex: 1 1 calc(50% - 20px);
+    background-color: #e8f5e9;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+.skill-box:hover, .project-box:hover {
+    transform: translateY(-5px);
+}
+.skill-box h3, .project-box h3 {
+    color: #4CAF50;
+}
+
+/* Syllabus Links */
+.syllabus ul {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+.syllabus a {
+    text-decoration: none;
+    color: #4CAF50;
+    font-weight: bold;
+}
+.syllabus a:hover {
+    text-decoration: underline;
+}
+
+/* Contact */
+.contact-info {
+    text-align: center;
+}
+.contact-info a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
